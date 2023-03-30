@@ -1,0 +1,30 @@
+uuid: 2cc84560-d96a-4df4-9bed-4121eaebc65b
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9ab5217f-9bcf-4062-bb4e-6eaee3b7dae2'
+  module:
+    - block_content
+    - system
+  theme:
+    - theme_arias
+id: solucionessinlitigiosllegamosaunacuerdoparaquetodosganen
+theme: theme_arias
+region: piso_1
+weight: -7
+provider: null
+plugin: 'block_content:9ab5217f-9bcf-4062-bb4e-6eaee3b7dae2'
+settings:
+  id: 'block_content:9ab5217f-9bcf-4062-bb4e-6eaee3b7dae2'
+  label: 'Asesorías en centros de mediación'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

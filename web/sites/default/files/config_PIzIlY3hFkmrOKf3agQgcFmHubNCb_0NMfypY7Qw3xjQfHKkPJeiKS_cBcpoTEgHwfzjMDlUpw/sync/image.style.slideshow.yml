@@ -1,0 +1,7 @@
+uuid: 2c932355-f15c-49f7-bab6-38b8468c1136
+langcode: es
+status: true
+dependencies: {  }
+name: slideshow
+label: 'Slideshow 1600 x 600'
+effects: {  }

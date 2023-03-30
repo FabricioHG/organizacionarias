@@ -1,0 +1,20 @@
+uuid: e2b805e5-93a4-4f37-a291-2ce2dcc116f5
+langcode: es
+status: true
+dependencies:
+  theme:
+    - theme_arias
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: theme_arias_local_actions
+theme: theme_arias
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

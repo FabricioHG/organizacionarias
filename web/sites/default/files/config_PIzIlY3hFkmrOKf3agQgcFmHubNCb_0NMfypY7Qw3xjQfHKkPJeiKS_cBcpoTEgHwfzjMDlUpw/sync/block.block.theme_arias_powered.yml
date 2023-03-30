@@ -1,0 +1,22 @@
+uuid: 7e234097-56dd-4171-94aa-a7df8985c709
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - theme_arias
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: theme_arias_powered
+theme: theme_arias
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

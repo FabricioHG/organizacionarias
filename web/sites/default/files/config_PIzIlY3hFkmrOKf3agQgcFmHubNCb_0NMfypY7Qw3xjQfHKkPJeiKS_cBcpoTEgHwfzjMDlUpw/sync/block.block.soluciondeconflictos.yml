@@ -1,0 +1,30 @@
+uuid: 5d8b6e70-066c-4b3d-90c1-6aa65958d0f6
+langcode: es
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d3444490-f754-445b-bd64-bfdcfdd4b7c0'
+  module:
+    - block_content
+    - system
+  theme:
+    - theme_arias
+id: soluciondeconflictos
+theme: theme_arias
+region: piso_2
+weight: -7
+provider: null
+plugin: 'block_content:d3444490-f754-445b-bd64-bfdcfdd4b7c0'
+settings:
+  id: 'block_content:d3444490-f754-445b-bd64-bfdcfdd4b7c0'
+  label: 'Solución de conflictos legales de carácter tecnológico en materia de derecho '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

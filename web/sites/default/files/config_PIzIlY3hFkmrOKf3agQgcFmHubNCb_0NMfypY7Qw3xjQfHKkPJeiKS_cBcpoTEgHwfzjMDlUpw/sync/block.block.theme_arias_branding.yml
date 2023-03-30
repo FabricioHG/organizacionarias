@@ -1,0 +1,29 @@
+uuid: cbb765d7-e544-4847-9125-9aac64a6f7df
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - theme_arias
+third_party_settings:
+  block_class:
+    classes: logo_prueba_any
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: theme_arias_branding
+theme: theme_arias
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Organización AriaS'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

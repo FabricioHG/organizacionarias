@@ -1,0 +1,22 @@
+uuid: 7dd00657-9e0d-498a-986c-5bc7e6e2f62b
+langcode: es
+status: true
+dependencies:
+  theme:
+    - theme_arias
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: theme_arias_local_tasks
+theme: theme_arias
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

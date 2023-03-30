@@ -1,0 +1,30 @@
+uuid: b981ff8f-5c51-48fa-91aa-53374ba240c2
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b5140bb3-5308-4444-bfc2-38510ac24a99'
+  module:
+    - block_content
+    - system
+  theme:
+    - theme_arias
+id: triangle_right
+theme: theme_arias
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:b5140bb3-5308-4444-bfc2-38510ac24a99'
+settings:
+  id: 'block_content:b5140bb3-5308-4444-bfc2-38510ac24a99'
+  label: Triangle_right
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/*"

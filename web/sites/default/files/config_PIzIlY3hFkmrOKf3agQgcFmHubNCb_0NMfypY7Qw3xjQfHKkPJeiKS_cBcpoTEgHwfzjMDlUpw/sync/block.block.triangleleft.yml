@@ -1,0 +1,34 @@
+uuid: bf6b5325-877c-4a33-ac19-87a9deb2d9c7
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:77a56c22-279f-4c0d-90a9-e003156a3f01'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - theme_arias
+third_party_settings:
+  block_class:
+    classes: desp_down
+id: triangleleft
+theme: theme_arias
+region: nav_branding
+weight: -7
+provider: null
+plugin: 'block_content:77a56c22-279f-4c0d-90a9-e003156a3f01'
+settings:
+  id: 'block_content:77a56c22-279f-4c0d-90a9-e003156a3f01'
+  label: 'Triangle Left'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/*"

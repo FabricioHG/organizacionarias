@@ -1,0 +1,22 @@
+uuid: ab92629a-5d23-46ec-8796-7f705a9d1a75
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - theme_arias
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: theme_arias_help
+theme: theme_arias
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

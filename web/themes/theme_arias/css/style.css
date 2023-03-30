@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: #E7ECEF;
+}
+
+H1, H3{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+ H2{
+	 font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+
+/***************BRAND*****************/
+.navbar-brand a.site-title{	
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: lowercase;
+	display: flex;
+	background: url("../images/oa_t_log.svg") no-repeat;
+	background-position: 0px 0px;
+color: transparent;
+}
+
+.navbar-brand a.site-title:hover{
+color: transparent;
+	opacity: 0.8;
+	
+}
+/**********BOTONES GENERICOS***********/
+.btn_contact{
+	background: #A4CCEC;
+	-webkit-border-radius: 10px;
+border-radius: 10px;
+	padding: 10px;
+	color: #0A3364;
+	font-weight: 400;
+	border: solid thin #fff;
+	
+}
+
+/*****MENUS******/
+.navbar-nav .nav-item a{ 
+	font-family: 'Ubuntu', sans-serif;
+	font-style: oblique;
+	font-size: 1em;
+	color: #070707 !important;
+}
+.navbar-nav .nav-item a.is-active{
+	color: #7c7c7c !important;
+}
+
+/*********SLIDESHOW***********/
+
+#block-views-block-slide-show-home-block-1-3 img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-inner  img {
+  width: 100%;
+	height: auto;
+}
+
+.container-fluid{
+	padding: 0;
+	margin: 0;
+}
+#views-bootstrap-slide-show-home-block-1 H3{
+	color: #17110D;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+#views-bootstrap-slide-show-home-block-1 p{
+	color: #17110D;
+	font-size: 20px;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.d-md-block{
+position: absolute;
+top: 45px;
+right: 12%;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+text-align: right;
+}
+/******PISO 1******/
+
+.region-piso-1 {
+	background: #FFF;
+	
+}
+
+.region-piso-2 {
+	background: #284D79;
+}
+/***********ASESORIA EN LOS AMBITOS**************/
+#block-theme-arias-page-title h1{
+	display: none;
+}
+#block-asesoriaenlosambitos{
+	padding-bottom: 50px;
+}
+#block-asesoriaenlosambitos h2{
+	margin-top: 50px;
+}
+#block-asesoriaenlosambitos ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #block-asesoriaenlosambitos ul li {
+	  margin: 1px;
+    float: left;
+	 /* width: 336px;*/
+	  display: flex;
+  align-items:flex-end;
+  }
+#block-asesoriaenlosambitos ul li span{
+	padding: 10px;
+    margin: 6px; 
+	  vertical-align: bottom;
+	  font-size: 21px;
+	  font-family: 'Ubuntu', sans-serif;
+	  color: #fff;
+	line-height: 1.3; 
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+68 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 68%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+
+	-webkit-border-radius: 8px;
+border-radius: 8px;
+}
+
+/*******SOLUCIONES*************/
+#block-soluciondeconflictos, #block-soluciondeconflictos h3, #block-soluciondeconflictos h2{
+	color: #FFF;
+}
+
+#block-solucionessinlitigiosllegamosaunacuerdoparaquetodosganen .img-left img,
+#block-soluciondeconflictos img{
+	max-width: 100%;
+	height:auto; 
+}
+/*******CONTAINERS********/
+
+.piso1 {
+	background: #FFF;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.piso2 {
+	background: #284D79;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.dialog-off-canvas-main-canvas .container-fluid:nth-child(2){
+	background: #284D79 ¡important;
+}
+
+.img-left{
+	float: left;
+	display: inline;
+}
+
+/*******CONTACTO********/
+#block-webform{
+	padding: 50px 0px;
+}
+
+/*******TRIANGULOS********/
+
+
+/***TARRIBA***/
+#block-triangleleft .w-d img{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  max-width: 13% !important;
+  height: auto;
+}
+#block-triangleleft .b-d img{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  max-width: 14%;
+  height: auto;
+}
+/***TABAJO***/
+
+#block-triangle-right .t_dr img{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  max-width: 13% !important;
+  height: auto;
+}
+#block-triangle-right .t_wr img{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  max-width: 14%;
+  height: auto;
+}
+
+/*******Whats********/
+
+#block-triangle-right .contact img{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: auto;
+	margin: 27px;
+}
+
+#block-triangle-right .contact a img:hover{
+	margin-bottom: 32px;
+}
+
+
+
+.gira_down{
+	transform: scaleY(-1);
+}
+
+
+/**********QUERIS**************/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#block-asesoriaenlosambitos ul li {
+    float: none;
+    width: 100%;
+    height: 50px;}
+	
+	.c_divorcio{
+	background: #000;
+	background-size: contain;}
+    .p_int_ind{
+	background: #000;
+	background-size: contain;}
+    .c_empr{
+	background: #000;
+	background-size: contain;}
+    .c_tec{
+	background: #000;
+	background-size: contain;}
+    .rec_cap{
+	background: #000;
+	background-size: contain;}
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#block-asesoriaenlosambitos ul li {
+		float: left;
+	  width: 18.5%;
+    height: 221px;}
+	.c_divorcio, .p_int_ind, .c_empr, .c_tec{
+	
+	
+}
+    .c_divorcio{
+	background: url("../images/contr_div.png") no-repeat;
+	background-size: contain;}
+    .p_int_ind{
+	background: url("../images/transit.png") no-repeat;
+	background-size: contain;}
+    .c_empr{
+	background: url("../images/contr_empr.png") no-repeat;
+	background-size: contain;}
+    .c_tec{
+	background: url("../images/obt_libertad.png") no-repeat;
+	background-size: contain;}
+    .rec_cap{
+	background: url("../images/prop_int.png") no-repeat;
+	background-size: contain;}
+	
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#block-asesoriaenlosambitos ul li {
+		float: left;
+	    width: 19.5%;
+    height: 275px;}
+}
+
+
+
+
+/**********QUERIS**************/
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+uuid: 8000ceb8-5b3b-41a9-bae4-40c24ee319c6
+langcode: es
+status: true
+dependencies:
+  theme:
+    - theme_arias
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: theme_arias_page_title
+theme: theme_arias
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

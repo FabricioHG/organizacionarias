@@ -1,0 +1,9 @@
+desplaza_abajo:
+  parent: desplaza_abajo
+  identifier: '[{"section_identity":".desp_down","section_event":"scroll","section_animation":"fadeOutLeft"}]'
+body:
+  parent: body
+  identifier: '[{"section_identity":".ferra","section_event":"scroll","section_animation":"slideInDown"}]'
+div:
+  parent: div
+  identifier: '[{"section_identity":".downr","section_event":"onload","section_animation":"slideInUp"},{"section_identity":".ferra","section_event":"onload","section_animation":"slideInDown"},{"section_identity":".up","section_event":"scroll","section_animation":"pulse"}]'

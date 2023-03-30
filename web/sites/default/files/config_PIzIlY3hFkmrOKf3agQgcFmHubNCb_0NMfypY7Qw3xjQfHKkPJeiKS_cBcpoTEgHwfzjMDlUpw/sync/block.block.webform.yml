@@ -1,0 +1,25 @@
+uuid: 73f87228-3cad-4686-ad82-cda3bb2f8cff
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - webform
+  theme:
+    - theme_arias
+id: webform
+theme: theme_arias
+region: piso_3
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Contacto
+  label_display: visible
+  provider: webform
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility: {  }
